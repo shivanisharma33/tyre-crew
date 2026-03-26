@@ -15,18 +15,53 @@ const Features = () => {
   ];
 
   return (
-    <div className="bg-white py-12 md:py-20 px-4 sm:px-10 lg:px-20 overflow-hidden">
-      {/* Logos Row - Animated Marquee */}
-      <div className="relative mb-12 md:mb-20 select-none group before:absolute before:left-0 before:top-0 before:w-16 before:h-full before:bg-gradient-to-r before:from-white before:to-transparent before:z-10 after:absolute after:right-0 after:top-0 after:w-16 after:h-full after:bg-gradient-to-l after:from-white after:to-transparent after:z-10">
-        <div className="flex w-max animate-marquee items-center opacity-70 group-hover:opacity-100 transition-opacity duration-300 hover:[animation-play-state:paused]">
-          {[...brandLogos, ...brandLogos].map((logo, i) => (
-            <img 
-              key={i} 
-              src={logo} 
-              alt="Brand Logo" 
-              className="h-10 sm:h-12 md:h-16 w-auto object-contain mx-6 md:mx-10 grayscale hover:grayscale-0 transition-all duration-300 transform hover:scale-110" 
-            />
-          ))}
+    <div className="bg-[#f8fafc] py-16 md:py-24 px-4 sm:px-10 lg:px-20 overflow-hidden relative border-y border-slate-100/50">
+      {/* Dynamic Background Texture */}
+      <div className="absolute inset-0 opacity-[0.02] pointer-events-none z-0" style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E")` }}></div>
+
+      {/* Premium Brands Trust Section */}
+      <div className="relative z-10 w-full mb-8 md:mb-12">
+        <div className="flex flex-col items-center justify-center mb-16 text-center">
+          <div className="inline-flex items-center gap-2.5 bg-white border border-slate-200/60 px-4 py-1.5 rounded-full mb-6 shadow-[0_2px_10px_-3px_rgba(0,0,0,0.05)]">
+            <span className="flex h-2 w-2 relative">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-orange-500"></span>
+            </span>
+            <span className="text-[10px] font-black uppercase tracking-[0.25em] text-slate-500">Official Partners</span>
+          </div>
+          
+          <h2 className="text-3xl md:text-5xl font-black  uppercase tracking-tighter text-slate-900 leading-[0.9] mb-4">
+            Trusted by the <span className="text-[#FB7E10]">Best in Motion</span>
+          </h2>
+          <p className="text-slate-400 text-xs md:text-sm font-bold uppercase tracking-widest max-w-lg">
+            Authorized fitting partners for premium global tyre manufacturers
+          </p>
+        </div>
+
+        {/* The Marquee Track */}
+        <div className="relative group max-w-[1400px] mx-auto">
+          {/* Track Shadow/Border containment */}
+          <div className="absolute inset-0 bg-white/40 backdrop-blur-[2px] border-y border-white rounded-3xl -mx-4 md:-mx-10 z-0 shadow-[inset_0_0_40px_rgba(0,0,0,0.02)]"></div>
+
+          {/* Scrolling edges fade */}
+          <div className="absolute inset-y-0 left-0 w-24 md:w-60 bg-gradient-to-r from-[#f8fafc] via-[#f8fafc]/80 to-transparent z-10 pointer-events-none rounded-l-3xl"></div>
+          <div className="absolute inset-y-0 right-0 w-24 md:w-60 bg-gradient-to-l from-[#f8fafc] via-[#f8fafc]/80 to-transparent z-10 pointer-events-none rounded-r-3xl"></div>
+
+          {/* Single Row: Forward Motion */}
+          <div className="flex w-max animate-marquee items-center py-10 relative z-10">
+            {[...brandLogos, ...brandLogos].map((logo, i) => (
+              <div 
+                key={`r1-${i}`}
+                className="mx-12 md:mx-20 flex items-center justify-center"
+              >
+                <img
+                  src={logo}
+                  alt="Brand Logo"
+                  className="h-10 md:h-16 w-auto object-contain drop-shadow-sm filter brightness-105"
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 
