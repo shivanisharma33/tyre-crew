@@ -20,7 +20,7 @@ const CTA = () => {
             READY FOR THE<br className="hidden sm:block" />ROAD AHEAD?
           </h2>
           <p className="text-gray-400 font-medium text-base md:text-lg leading-relaxed">
-            At Mobile Tyre Crew, we fit and replace tyres for leading manufacturers including Rolls-Royce, Bentley, Porsche, Lamborghini, BMW, Mercedes-Benz, Audi, and Range Rover—ensuring precise fitment, calibration, and reliable on-site convenience every time.
+            At Mobile Tyre Champions, we fit and replace tyres for leading manufacturers including Rolls-Royce, Bentley, Porsche, Lamborghini, BMW, Mercedes-Benz, Audi, and Range Rover—ensuring precise fitment, calibration, and reliable on-site convenience every time.
           </p>
 
           <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center md:justify-start gap-4 md:gap-6 pt-2 md:pt-4">

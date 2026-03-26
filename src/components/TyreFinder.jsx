@@ -191,7 +191,7 @@ const TyreFinder = () => {
                 {/* Footer Tip */}
                 <div className="bg-slate-50 p-6 border-t border-gray-100 text-center">
                     <p className="text-[10px] font-black uppercase text-gray-400 tracking-[0.3em]">
-                        Mobile Tyre Crew © 2026 • Precision Fitment GUARANTEED • 24/7 UK Emergency Response
+                        Mobile Tyre Champions © 2026 • Precision Fitment GUARANTEED • 24/7 UK Emergency Response
                     </p>
                 </div>
             </div>

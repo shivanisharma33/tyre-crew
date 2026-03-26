@@ -70,7 +70,7 @@ const testimonials = [
     seed: 'crew2',
   },
   {
-    quote: "Professional, fast, and a fair price. Never going to a garage again when Mobile Tyre Crew exists.",
+    quote: "Professional, fast, and a fair price. Never going to a garage again when Mobile Tyre Champions exists.",
     name: 'Daniel R.',
     role: 'BMW M4 Owner',
     seed: 'crew3',
@@ -91,7 +91,7 @@ const AboutPage = () => {
         <div className="absolute inset-0 z-0">
           <img
             src="/images/fitting-step.png"
-            alt="Mobile Tyre Crew technician at work"
+            alt="Mobile Tyre Champions technician at work"
             className="w-full h-full object-cover opacity-40 scale-110"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/60 to-black/20" />
@@ -111,7 +111,7 @@ const AboutPage = () => {
 
             <h1 className="text-4xl sm:text-5xl md:text-7xl font-black text-white leading-tight tracking-tight">
               About{' '}
-              <span className="text-[#FB7E10]">Mobile<br className="hidden md:block" /> Tyre Crew</span>
+              <span className="text-[#FB7E10]">Mobile<br className="hidden md:block" /> Tyre Champions</span>
             </h1>
 
             <p className="text-gray-300 text-base md:text-xl leading-relaxed max-w-2xl">
@@ -186,7 +186,7 @@ const AboutPage = () => {
             </div>
 
             <p className="text-gray-600 text-base md:text-lg leading-relaxed">
-              Mobile Tyre Crew was built on a simple belief — <strong>no driver should be stranded</strong>. Our mobile operations mean no waiting in garages, no towing fees. You stay where you are, and we come to you with the same equipment and expertise as a workshop.
+              Mobile Tyre Champions was built on a simple belief — <strong>no driver should be stranded</strong>. Our mobile operations mean no waiting in garages, no towing fees. You stay where you are, and we come to you with the same equipment and expertise as a workshop.
             </p>
             <p className="text-gray-600 text-base md:text-lg leading-relaxed">
               Based at <strong>172 Newport Road, Aldershot GU12 4PZ</strong>, we serve customers across the UK with a large stock, expert technicians, and fully equipped mobile vans — delivering convenience, safety, and transparency with every job.
@@ -212,7 +212,7 @@ const AboutPage = () => {
           <div className="mb-12 md:mb-16 text-center md:text-left flex flex-col items-center md:items-start">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight text-black max-w-xl">
               Why Thousands Choose<br />
-              <span className="text-[#FB7E10]">Mobile Tyre Crew</span>
+              <span className="text-[#FB7E10]">Mobile Tyre Champions</span>
             </h2>
             <div className="w-16 h-1.5 bg-[#FB7E10] mt-4" />
           </div>

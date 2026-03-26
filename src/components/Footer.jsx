@@ -8,7 +8,7 @@ const Footer = () => {
                 {/* Brand */}
                 <div className="space-y-6 md:space-y-8 text-center sm:text-left flex flex-col items-center sm:items-start">
                     <Link to="/" className="flex items-center">
-                        <img src="/images/m-logo.png" alt="Mobile Tyre Crew" className="h-16 md:h-20 w-auto object-contain" />
+                        <img src="/images/m-logo.png" alt="Mobile Tyre Champions" className="h-16 md:h-20 w-auto object-contain" />
                     </Link>
                     <p className="text-gray-400 text-sm font-medium leading-relaxed max-w-xs">
                         Engineered for the unexpected. We provide premium roadside tyre services for discerning drivers across the UK.
@@ -87,7 +87,7 @@ const Footer = () => {
                     <span className="text-gray-600 text-[10px] md:text-xs font-semibold">EST. 2012</span>
                 </div>
                 <p className="text-gray-500 text-[10px] md:text-xs font-medium order-2 md:order-1 text-center">
-                    © 2026 Mobile Tyre Crew. All rights reserved.
+                    © 2026 Mobile Tyre Champions. All rights reserved.
                 </p>
             </div>
         </footer>

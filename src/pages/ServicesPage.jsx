@@ -69,7 +69,7 @@ const ServicesPage = () => {
                             <thead className="bg-[#0B1528] text-white">
                                 <tr>
                                     <th className="p-8 font-black uppercase text-xs tracking-widest italic opacity-50">Strategic Feature</th>
-                                    <th className="p-8 font-black uppercase text-xs tracking-widest text-center">Mobile Tyre Crew</th>
+                                    <th className="p-8 font-black uppercase text-xs tracking-widest text-center">Mobile Tyre Champions</th>
                                     <th className="p-8 font-black uppercase text-xs tracking-widest text-center opacity-50">Local Garage</th>
                                 </tr>
                             </thead>
