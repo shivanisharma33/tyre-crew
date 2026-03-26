@@ -11,6 +11,15 @@ export default {
         'brand-green': '#4ADE80',
         'brand-dark': '#0F172A',
       },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-50%)' },
+        }
+      },
+      animation: {
+        marquee: 'marquee 25s linear infinite',
+      }
     },
   },
   plugins: [],

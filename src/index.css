@@ -26,3 +26,12 @@ body {
   --color-brand-green: #22C55E;
   --color-brand-dark: #0F172A;
 }
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 15s linear infinite;
+}
