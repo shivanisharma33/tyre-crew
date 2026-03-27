@@ -114,7 +114,7 @@ const ServiceDetail = () => {
                                     <p className="text-gray-500 font-medium leading-relaxed max-w-xl">
                                         Discerning clients trust Mobile Tyre Champions for care, confidentiality, and precision. We're known for our professionalism, premium-grade tools, and exceptional handling of high-end vehicles — maintaining showroom standards, even in mobile conditions.
                                     </p>
-                                0</div>
+                                </div>
                             </div>
                         </div>
                     </div>
