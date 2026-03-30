@@ -38,7 +38,7 @@ export const servicesData = [
   {
     id: 'mobile-trailer-tyre-fitting',
     title: "Mobile Trailer Tyre Fitting",
-    image: "/images/mobile-trailer-tyre-fitting-new.jpg",
+    image: "/images/Service Van Branding Mockup.jpg",
     description: "Specialized mobile fitting for trailers, caravans, and horseboxes. We come to your storage location or home to ensure your leisure vehicle is ready for the road.",
     features: [
       "Caravan Specialists",
