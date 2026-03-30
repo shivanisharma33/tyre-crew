@@ -21,14 +21,14 @@ const locations = [
 
 const LocationsPage = () => {
   return (
-    <div className="bg-slate-50 min-h-screen text-slate-900 font-['Outfit'] pt-24 overflow-hidden relative">
+    <div className="bg-slate-50 min-h-screen text-slate-900 font-['Outfit'] overflow-hidden relative">
       
       {/* ── BACKGROUND ACCENTS (Subtle) ── */}
       <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-orange-100/50 rounded-full blur-[150px] -mr-64 -mt-64"></div>
       <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-blue-50/50 rounded-full blur-[150px] -ml-64 -mb-64"></div>
 
       {/* ── HERO ── */}
-      <section className="relative py-32 md:py-48 px-4 border-b border-gray-200 z-10 overflow-hidden shadow-sm">
+      <section className="relative pt-16 pb-32 md:pt-24 md:pb-48 px-4 border-b border-gray-200 z-10 overflow-hidden shadow-sm">
         {/* Background Image Layer */}
         <div className="absolute inset-0 z-0">
           <img 

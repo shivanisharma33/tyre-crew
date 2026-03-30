@@ -4,10 +4,10 @@ import { Phone, ArrowRight } from 'lucide-react';
 
 const ServicesPage = () => {
     return (
-        <div className="bg-slate-50 min-h-screen text-slate-900 font-['Outfit'] pt-24">
+        <div className="bg-slate-50 min-h-screen text-slate-900 font-['Outfit']">
             
             {/* ── HERO ── */}
-            <section className="relative py-32 md:py-48 px-4 overflow-hidden border-b border-gray-200">
+            <section className="relative pt-16 pb-32 md:pt-24 md:pb-48 px-4 overflow-hidden border-b border-gray-200">
                 <div className="absolute inset-0 z-0">
                     <img 
                         src="https://images.unsplash.com/photo-1544436074-c603a16fc0c1?q=80&w=2070&auto=format&fit=crop" 

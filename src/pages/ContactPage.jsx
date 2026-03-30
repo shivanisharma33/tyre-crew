@@ -11,10 +11,10 @@ const ContactPage = () => {
     };
 
     return (
-        <div className="font-['Outfit'] bg-slate-50 min-h-screen text-slate-900 overflow-x-hidden pt-24">
+        <div className="font-['Outfit'] bg-slate-50 min-h-screen text-slate-900 overflow-x-hidden">
             
             {/* ── HERO SECTION ── */}
-            <section className="relative py-32 md:py-48 px-4 border-b border-gray-200 overflow-hidden bg-white">
+            <section className="relative pt-16 pb-32 md:pt-24 md:pb-48 px-4 border-b border-gray-200 overflow-hidden bg-white">
                 <div className="absolute inset-0 z-0">
                     <img 
                         src="https://images.unsplash.com/photo-1534536281715-e28d76689b4d?q=80&w=2070&auto=format&fit=crop" 
