@@ -14,6 +14,8 @@ import ServicesPage from './pages/ServicesPage';
 import LocationsPage from './pages/LocationsPage';
 import ServiceDetail from './pages/ServiceDetail';
 import WhatsAppButton from './components/WhatsAppButton';
+import LockingWheelNutRemoval from './pages/LockingWheelNutRemoval';
+import TrailerTyreFitting from './pages/TrailerTyreFitting';
 
 /* ── Home page assembled from components ─────────────────────────────────── */
 const HomePage = () => (
@@ -37,6 +39,8 @@ function App() {
           <Route path="/find-tyres" element={<TyreFinderPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/services" element={<ServicesPage />} />
+          <Route path="/services/locking-wheel-nut-removal" element={<LockingWheelNutRemoval />} />
+          <Route path="/services/trailer-tyre-fitting" element={<TrailerTyreFitting />} />
           <Route path="/services/:id" element={<ServiceDetail />} />
           <Route path="/locations" element={<LocationsPage />} />
         </Routes>
