@@ -8,7 +8,7 @@ const Process = () => {
       {/* Background Accent (Subtle) */}
       <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-orange-100/30 rounded-full blur-[150px] -mr-48 -mt-48"></div>
 
-      <div className="max-w-7xl mx-auto rounded-[2rem] md:rounded-[5rem] overflow-hidden flex flex-col lg:flex-row-reverse bg-white border border-gray-100 shadow-2xl relative z-10 transition-all duration-700 hover:shadow-orange-100">
+      <div className="max-w-7xl mx-auto rounded-[1rem] md:rounded-[1rem] overflow-hidden flex flex-col lg:flex-row-reverse bg-white border border-gray-100 shadow-2xl relative z-10 transition-all duration-700 hover:shadow-orange-100">
 
         {/* Right Content - Visual */}
         <div className="lg:w-1/2 relative h-[300px] sm:h-[500px] lg:h-auto overflow-hidden group">
@@ -30,7 +30,7 @@ const Process = () => {
                   <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
                   <p className="text-green-700 text-[10px] font-black uppercase tracking-widest leading-none">Technician Deployed</p>
                 </div>
-                <p className="text-black font-black italic uppercase text-xl leading-tight tracking-tight">MISSION STATUS: <span className="text-green-600">IN-FLIGHT</span></p>
+                <p className="text-black font-black uppercase text-xl leading-tight tracking-tight">MISSION STATUS: <span className="text-green-600">IN-FLIGHT</span></p>
               </div>
             </div>
           </div>
@@ -40,12 +40,12 @@ const Process = () => {
         <div className="lg:w-1/2 p-6 md:p-16 lg:p-24 flex flex-col justify-center space-y-10 md:space-y-16">
           <div className="space-y-6 text-center md:text-left">
             <div className="inline-flex items-center gap-2 bg-slate-50 border border-slate-100 px-4 py-2 rounded-xl">
-              <span className="text-[#FB7E10] font-black uppercase text-[10px] tracking-widest italic tracking-tighter">Operational Protocol</span>
+              <span className="text-[#FB7E10] font-black uppercase text-[10px] tracking-widest tracking-tighter">Operational Protocol</span>
             </div>
-            <h2 className="text-3xl sm:text-5xl md:text-7xl font-black tracking-tighter leading-tight md:leading-[0.85] text-black uppercase italic">
+            <h2 className="text-3xl sm:text-5xl md:text-7xl font-black tracking-tighter leading-tight md:leading-[0.85] text-black uppercase">
               FLAT TYRE? <br /> <span className="text-[#FB7E10]">REACH US INSTANTLY</span>
             </h2>
-            <p className="text-gray-400 font-medium italic text-base md:text-lg leading-relaxed max-w-md mx-auto md:mx-0">Our specialized deployment sequence ensures zero downtime. Precision engineered response, 24/7/365.</p>
+            <p className="text-gray-400 font-medium text-base md:text-lg leading-relaxed max-w-md mx-auto md:mx-0">Our specialized deployment sequence ensures zero downtime. Precision engineered response, 24/7/365.</p>
           </div>
 
           <div className="space-y-8 md:space-y-12 relative">
@@ -78,8 +78,8 @@ const Process = () => {
                   <div className="absolute -right-3 md:-right-4 top-1/2 -translate-y-1/2 w-7 h-7 md:w-8 md:h-8 bg-white border border-gray-100 rounded-full flex items-center justify-center text-[10px] font-black text-gray-400 group-hover:text-black transition-colors shadow-sm">{step.idx}</div>
                 </div>
                 <div className="space-y-1 md:space-y-2 pt-1 md:pt-2 text-left">
-                  <h4 className="text-xl md:text-2xl font-black text-black italic transition-colors group-hover:text-[#FB7E10] tracking-tight">{step.title}</h4>
-                  <p className="text-gray-400 font-medium leading-relaxed max-w-sm italic text-xs md:text-sm">
+                  <h4 className="text-xl md:text-2xl font-black text-black transition-colors group-hover:text-[#FB7E10] tracking-tight">{step.title}</h4>
+                  <p className="text-gray-400 font-medium leading-relaxed max-w-sm text-xs md:text-sm">
                     {step.desc}
                   </p>
                 </div>
@@ -87,20 +87,10 @@ const Process = () => {
             ))}
           </div>
 
-          <div className="pt-4 md:pt-8 flex flex-col sm:flex-row gap-4 md:gap-6">
-            <a href="tel:+447495336005" className="inline-flex items-center justify-center gap-4 bg-[#FB7E10] text-white px-8 md:px-12 py-4 md:py-5 rounded-2xl font-black uppercase tracking-widest text-sm hover:bg-orange-600 transition-all shadow-xl shadow-orange-900/10 active:scale-95 italic">
+          <div className="pt-4 md:pt-8 flex justify-center">
+            <a href="tel:+447495336005" className="inline-flex items-center justify-center gap-4 bg-[#FB7E10] text-white px-8 md:px-12 py-4 md:py-5 rounded-2xl font-black uppercase tracking-widest text-sm hover:bg-orange-600 transition-all shadow-xl shadow-orange-900/10 active:scale-95">
               GET TYRES NOW <ArrowRight size={18} />
             </a>
-            <div className="flex items-center gap-4 px-8 h-16 bg-slate-50 border border-slate-100 rounded-2xl group shadow-sm">
-              <div className="flex -space-x-3">
-                {[1, 2, 3].map(i => (
-                  <div key={i} className="w-8 h-8 rounded-full border-2 border-white bg-slate-200 overflow-hidden">
-                    <img src={`https://api.dicebear.com/7.x/avataaars/svg?seed=crew${i}`} alt="Avatar" />
-                  </div>
-                ))}
-              </div>
-              <span className="text-gray-400 text-[10px] font-black uppercase tracking-widest italic leading-none pt-0.5">Live Readiness</span>
-            </div>
           </div>
         </div>
       </div>

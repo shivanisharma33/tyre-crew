@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const TyreFinderPage = () => {
     return (
         <div className="font-['Outfit'] bg-[#060C18] min-h-screen text-white overflow-x-hidden">
-            
+
             {/* ── PREMIUM HERO SECTION ───────────────────────────────────────── */}
             <section className="relative pt-32 pb-20 md:pt-48 md:pb-32 px-4 overflow-hidden">
                 {/* Background animations */}
@@ -31,14 +31,14 @@ const TyreFinderPage = () => {
                     </div>
 
                     <div className="space-y-4 max-w-4xl mx-auto">
-                        <h1 className="text-3xl sm:text-5xl md:text-8xl font-black uppercase tracking-tight italic leading-tight animate-in fade-in slide-in-from-bottom-4 duration-700 delay-100">
+                        <h1 className="text-3xl sm:text-5xl md:text-8xl font-black uppercase tracking-tight leading-tight animate-in fade-in slide-in-from-bottom-4 duration-700 delay-100">
                             REGISTRATION <br />
                             <span className="text-transparent bg-clip-text" style={{ backgroundImage: 'linear-gradient(90deg, #FB7E10 0%, #ffb347 100%)' }}>
                                 LOOKUP TOOL
                             </span>
                         </h1>
                         <div className="w-16 sm:w-24 h-1.5 sm:h-2 bg-[#FB7E10] mx-auto rounded-full"></div>
-                        <p className="text-gray-400 text-base sm:text-lg md:text-2xl font-medium leading-relaxed max-w-2xl mx-auto italic animate-in fade-in slide-in-from-bottom-4 duration-700 delay-200 px-2">
+                        <p className="text-gray-400 text-base sm:text-lg md:text-2xl font-medium leading-relaxed max-w-2xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-700 delay-200 px-2">
                             Identify your vehicle's specifications in seconds. Enter your registration number and we'll handle the rest.
                         </p>
                     </div>
@@ -63,10 +63,10 @@ const TyreFinderPage = () => {
             {/* ── BENTO STYLE INFO GRID ──────────────────────────────────────── */}
             <section className="bg-white py-24 md:py-32 px-4 md:px-10 lg:px-20 relative overflow-hidden">
                 <div className="max-w-7xl mx-auto space-y-20">
-                    
+
                     {/* Section Header */}
                     <div className="max-w-3xl space-y-4">
-                        <h2 className="text-4xl md:text-6xl font-black text-black tracking-tighter uppercase italic">
+                        <h2 className="text-4xl md:text-6xl font-black text-black tracking-tighter uppercase">
                             WHY ACCURACY <br /> <span className="text-[#FB7E10]">MATTERS</span>
                         </h2>
                         <p className="text-gray-500 font-medium text-lg md:text-xl">Every car is unique. Our lookup tool ensures you get the exact performance your car was engineered for.</p>
@@ -80,7 +80,7 @@ const TyreFinderPage = () => {
                                 <ShieldCheck size={28} className="sm:w-8 sm:h-8" />
                             </div>
                             <div className="space-y-3 sm:space-y-4">
-                                <h4 className="text-black font-black text-xl sm:text-2xl uppercase tracking-tight italic">Safety Guaranteed</h4>
+                                <h4 className="text-black font-black text-xl sm:text-2xl uppercase tracking-tight">Safety Guaranteed</h4>
                                 <p className="text-gray-500 font-medium leading-relaxed text-sm sm:text-base">
                                     The wrong size can affect the ABS, stability control, and braking performance. We eliminate the risk of incorrect fittment.
                                 </p>
@@ -94,7 +94,7 @@ const TyreFinderPage = () => {
                                 <Zap size={28} className="sm:w-8 sm:h-8" />
                             </div>
                             <div className="space-y-3 sm:space-y-4 relative z-10">
-                                <h4 className="text-white font-black text-xl sm:text-2xl uppercase tracking-tight italic">Instant Search</h4>
+                                <h4 className="text-white font-black text-xl sm:text-2xl uppercase tracking-tight">Instant Search</h4>
                                 <p className="text-gray-400 font-medium leading-relaxed text-sm sm:text-base">
                                     Powered by high-performance datasets, our lookup provides detailed vehicle specs in under 5 seconds. Speed is at our core.
                                 </p>
@@ -107,7 +107,7 @@ const TyreFinderPage = () => {
                                 <HelpCircle size={28} className="sm:w-8 sm:h-8" />
                             </div>
                             <div className="space-y-3 sm:space-y-4">
-                                <h4 className="text-black font-black text-xl sm:text-2xl uppercase tracking-tight italic">Expert Support</h4>
+                                <h4 className="text-black font-black text-xl sm:text-2xl uppercase tracking-tight">Expert Support</h4>
                                 <p className="text-gray-500 font-medium leading-relaxed text-sm sm:text-base">
                                     Registration not listed? Our team has access to tier-1 manufacturing databases to find the right tyre for any vehicle.
                                 </p>
@@ -120,13 +120,12 @@ const TyreFinderPage = () => {
             {/* ── TRUSTBAR / TESTIMONIAL ────────────────────────────────────── */}
             <section className="bg-slate-50 py-12 sm:py-20 border-t border-gray-100 flex items-center justify-center px-4 overflow-hidden">
                 <div className="max-w-4xl w-full bg-white rounded-[2rem] sm:rounded-[3rem] p-6 sm:p-12 shadow-xl border border-gray-100 text-center space-y-6 sm:space-y-8 relative overflow-hidden">
-                    <div className="absolute left-0 top-0 bottom-0 w-1.5 sm:w-2 bg-[#FB7E10]"></div>
                     <div className="flex gap-0.5 sm:gap-1 justify-center">
                         {[1, 2, 3, 4, 5].map((s) => (
                             <Star key={s} size={18} fill="#FB7E10" className="text-[#FB7E10] sm:w-6 sm:h-6" />
                         ))}
                     </div>
-                    <p className="text-lg sm:text-2xl md:text-4xl font-black text-black italic tracking-tight leading-tight">
+                    <p className="text-lg sm:text-2xl md:text-4xl font-black text-black tracking-tight leading-tight">
                         "Easiest way to find my Mercedes CLA tyres. Took exactly 3 seconds to get the right size and book a mobile fitting."
                     </p>
                     <div className="flex flex-col items-center gap-1">
@@ -139,7 +138,7 @@ const TyreFinderPage = () => {
             {/* ── FINAL CTA BAR ─────────────────────────────────────────────── */}
             <section className="bg-[#0B1528] py-20 px-4 text-center">
                 <div className="max-w-4xl mx-auto space-y-10">
-                    <h2 className="text-3xl md:text-5xl font-black text-white italic uppercase tracking-tighter">
+                    <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tighter">
                         READY TO GET <span className="text-[#FB7E10]">MOVING?</span>
                     </h2>
                     <div className="flex flex-col md:flex-row items-center justify-center gap-4">

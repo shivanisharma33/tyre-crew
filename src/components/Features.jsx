@@ -30,7 +30,7 @@ const Features = () => {
             <span className="text-[10px] font-black uppercase tracking-[0.25em] text-slate-500">Official Partners</span>
           </div>
 
-          <h2 className="text-3xl md:text-5xl font-black  uppercase tracking-tighter text-slate-900 leading-[0.9] mb-4">
+          <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tighter text-slate-900 leading-[0.9] mb-4">
             Trusted by the <span className="text-[#FB7E10]">Best in Motion</span>
           </h2>
           <p className="text-slate-400 text-xs md:text-sm font-bold uppercase tracking-widest max-w-lg">
@@ -67,7 +67,7 @@ const Features = () => {
 
       {/* Heading */}
       <div className="mb-10 md:mb-16 text-center md:text-left flex flex-col items-center md:items-start">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight text-black max-w-xl italic uppercase">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight text-black max-w-xl uppercase">
           Precision Engineering.<br className="hidden sm:block" />Roadside Reality.
         </h2>
         <div className="w-16 h-1.5 bg-[#FB7E10] mt-4"></div>
@@ -91,8 +91,8 @@ const Features = () => {
                 <path d="M12 7V12" />
               </svg>
             </div>
-            <h3 className="text-2xl font-black uppercase tracking-tight mb-4 text-white italic">Ultra-Rapid Deployment</h3>
-            <p className="text-white/90 font-medium leading-relaxed max-w-md italic">
+            <h3 className="text-2xl font-black uppercase tracking-tight mb-4 text-white">Ultra-Rapid Deployment</h3>
+            <p className="text-white/90 font-medium leading-relaxed max-w-md">
               Our proprietary dispatch algorithm routes the nearest technician to your GPS coordinates in seconds. No waiting on hold, just instant action.
             </p>
           </div>
@@ -108,8 +108,8 @@ const Features = () => {
               <path d="M12 6L12 12" />
             </svg>
           </div>
-          <h3 className="text-2xl font-black uppercase tracking-tight mb-4 italic">Expertise Guaranteed</h3>
-          <p className="text-gray-400 font-medium leading-relaxed mb-10 italic">
+          <h3 className="text-2xl font-black uppercase tracking-tight mb-4">Expertise Guaranteed</h3>
+          <p className="text-gray-400 font-medium leading-relaxed mb-10">
             Every technician is IMI certified with a minimum of 5 years field experience in luxury and performance vehicles.
           </p>
           <div className="flex -space-x-3">
@@ -129,8 +129,8 @@ const Features = () => {
               <path d="M12 6V12L16 14" />
             </svg>
           </div>
-          <h3 className="text-2xl font-black uppercase tracking-tight mb-4 text-white italic">24/7 Kinetic Support</h3>
-          <p className="text-white/90 font-medium leading-relaxed italic">
+          <h3 className="text-2xl font-black uppercase tracking-tight mb-4 text-white">24/7 Kinetic Support</h3>
+          <p className="text-white/90 font-medium leading-relaxed">
             Christmas, New Year's, or 3 AM on a Tuesday. We never sleep because the roads never close.
           </p>
         </div>
@@ -138,7 +138,7 @@ const Features = () => {
         {/* Card 4: Quote (Span 2) */}
         <div className="lg:col-span-2 bg-[#FB7E10] rounded-2xl md:rounded-3xl overflow-hidden flex flex-col md:flex-row shadow-lg hover:shadow-xl transition-all">
           <div className="p-6 md:p-10 flex-1 flex flex-col justify-center text-center md:text-left">
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-white italic mb-4 md:mb-6 leading-tight uppercase">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-white mb-4 md:mb-6 leading-tight uppercase">
               "The best service I've ever experienced on the road."
             </h3>
             <p className="text-white/80 font-bold uppercase tracking-wider text-sm">

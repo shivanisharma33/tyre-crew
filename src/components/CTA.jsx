@@ -33,7 +33,7 @@ const CTA = () => {
               </div>
               <div className="flex flex-col text-left">
                 <span className="text-[9px] md:text-[10px] font-black text-white/40 uppercase tracking-widest group-hover:text-[#FB7E10]">Priority Hotline</span>
-                <span className="text-white font-black text-lg md:text-xl italic tracking-tight group-hover:text-[#FB7E10] tracking-tighter">+44 7495 336 005</span>
+                <span className="text-white font-black text-lg md:text-xl tracking-tight group-hover:text-[#FB7E10] tracking-tighter">+44 7495 336 005</span>
               </div>
             </a>
           </div>

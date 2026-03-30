@@ -66,8 +66,8 @@ const Footer = () => {
                 <div className="lg:mt-2 sm:col-span-2 lg:col-span-1">
                     <div className="bg-[#050B16] border border-white/5 rounded-2xl p-6 space-y-5 text-center sm:text-left">
                             <div className="space-y-1">
-                                <span className="text-[10px] font-black italic text-[#FB7E10] uppercase tracking-widest pl-1">24/7 Hotline</span>
-                                <h4 className="text-white font-black text-2xl lg:text-3xl italic tracking-tight">+44 7495 336 005</h4>
+                                <span className="text-[10px] font-black text-[#FB7E10] uppercase tracking-widest pl-1">24/7 Hotline</span>
+                                <h4 className="text-white font-black text-2xl lg:text-3xl tracking-tight">+44 7495 336 005</h4>
                             </div>
                             <div className="flex flex-col gap-3">
                                 <a

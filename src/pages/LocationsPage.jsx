@@ -41,12 +41,12 @@ const LocationsPage = () => {
 
         <div className="max-w-7xl mx-auto text-center space-y-8 relative z-10">
            <div className="inline-flex items-center gap-2.5 bg-orange-50 border border-orange-100 px-4 py-2 rounded-xl shadow-sm">
-             <span className="text-[#FB7E10] font-black uppercase text-[10px] tracking-widest italic animate-pulse">Nationwide Coverage</span>
+             <span className="text-[#FB7E10] font-black uppercase text-[10px] tracking-widest animate-pulse">Nationwide Coverage</span>
            </div>
-           <h1 className="text-5xl md:text-9xl font-black uppercase italic tracking-tighter leading-[0.8] text-black">
+           <h1 className="text-5xl md:text-9xl font-black uppercase tracking-tighter leading-[0.8] text-black">
               AREAS WE <br /> <span className="text-[#FB7E10]">COVER </span>
            </h1>
-           <p className="text-gray-500 text-lg md:text-2xl font-medium max-w-3xl mx-auto italic leading-relaxed">
+           <p className="text-gray-500 text-lg md:text-2xl font-medium max-w-3xl mx-auto leading-relaxed">
               Professional mobile tyre services delivered to your doorstep. We operate 24/7 across the following locations.
            </p>
         </div>
@@ -71,14 +71,14 @@ const LocationsPage = () => {
                         </div>
 
                         <div className="space-y-1">
-                           <h3 className="text-3xl font-black text-black italic group-hover:text-[#FB7E10] transition-colors">{loc.name}</h3>
+                           <h3 className="text-3xl font-black text-black group-hover:text-[#FB7E10] transition-colors">{loc.name}</h3>
                            <p className="text-gray-400 text-xs font-black uppercase tracking-[0.2em]">{loc.region}</p>
                         </div>
 
                         <div className="pt-6 border-t border-gray-50 flex items-center justify-between">
                            <div className="flex flex-col">
                               <span className="text-gray-300 text-[9px] font-black uppercase tracking-widest">Arrival Time</span>
-                              <span className="text-gray-600 text-sm font-bold italic tracking-tight">30-60 Mins</span>
+                              <span className="text-gray-600 text-sm font-bold tracking-tight">30-60 Mins</span>
                            </div>
                            <div className="w-10 h-10 bg-[#FB7E10]/10 rounded-full flex items-center justify-center group-hover:bg-[#FB7E10] group-hover:text-white transition-all shadow-sm">
                               <ArrowRight size={18} />
@@ -87,7 +87,7 @@ const LocationsPage = () => {
                      </div>
 
                      {/* Watermark Logo Effect */}
-                     <div className="absolute right-[-5%] bottom-[-5%] text-9xl font-black text-slate-50 italic pointer-events-none group-hover:scale-105 transition-all duration-1000">
+                     <div className="absolute right-[-5%] bottom-[-5%] text-9xl font-black text-slate-50 pointer-events-none group-hover:scale-105 transition-all duration-1000">
                         {loc.name.charAt(0)}
                      </div>
                   </div>
@@ -104,7 +104,7 @@ const LocationsPage = () => {
                     <Zap size={32} />
                 </div>
                 <div>
-                   <h4 className="text-xl font-black italic uppercase tracking-tight text-black leading-none">Emergency Response</h4>
+                   <h4 className="text-xl font-black uppercase tracking-tight text-black leading-none">Emergency Response</h4>
                    <p className="text-gray-400 font-medium text-sm mt-1">On-site in 60 minutes or less</p>
                 </div>
             </div>
@@ -113,7 +113,7 @@ const LocationsPage = () => {
                     <Shield size={32} />
                 </div>
                 <div>
-                   <h4 className="text-xl font-black italic uppercase tracking-tight text-black leading-none">Certified Crew</h4>
+                   <h4 className="text-xl font-black uppercase tracking-tight text-black leading-none">Certified Crew</h4>
                    <p className="text-gray-400 font-medium text-sm mt-1">IMI-Certified expert technicians</p>
                 </div>
             </div>
@@ -122,7 +122,7 @@ const LocationsPage = () => {
                     <Clock size={32} />
                 </div>
                 <div>
-                   <h4 className="text-xl font-black italic uppercase tracking-tight text-black leading-none">24/7 Service</h4>
+                   <h4 className="text-xl font-black uppercase tracking-tight text-black leading-none">24/7 Service</h4>
                    <p className="text-gray-400 font-medium text-sm mt-1">Always available, 365 days a year</p>
                 </div>
             </div>
@@ -135,10 +135,10 @@ const LocationsPage = () => {
             {/* decoration */}
             <div className="absolute top-0 right-0 w-64 h-64 bg-[#FB7E10]/5 rounded-full -mr-32 -mt-32"></div>
 
-            <h2 className="text-4xl md:text-7xl font-black uppercase italic tracking-tighter leading-none text-black">
+            <h2 className="text-4xl md:text-7xl font-black uppercase tracking-tighter leading-none text-black">
                DON'T SEE <br /> <span className="text-[#FB7E10]">YOUR LOCATION?</span>
             </h2>
-            <p className="text-gray-500 font-bold uppercase tracking-[0.2em] text-xs md:text-sm italic max-w-2xl mx-auto">Our routes are updated daily. Call our specialized hotline to check live mobile technician availability in your specific area.</p>
+            <p className="text-gray-500 font-bold uppercase tracking-[0.2em] text-xs md:text-sm max-w-2xl mx-auto">Our routes are updated daily. Call our specialized hotline to check live mobile technician availability in your specific area.</p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center pt-4">
                <a href="tel:+447495336005" className="inline-flex items-center justify-center gap-4 bg-[#FB7E10] text-white px-12 py-5 rounded-2xl font-black uppercase tracking-widest text-lg md:text-xl hover:bg-orange-600 hover:scale-105 transition-all shadow-xl active:scale-95 shadow-orange-900/10">

@@ -32,10 +32,10 @@ const ContactPage = () => {
                         </span>
                         <span className="text-[10px] md:text-xs font-black uppercase tracking-[0.2em] text-green-700">Live: 50+ Technicians Online UK-Wide</span>
                     </div>
-                    <h1 className="text-5xl md:text-9xl font-black uppercase italic tracking-tighter leading-[0.8] text-black">
+                    <h1 className="text-5xl md:text-9xl font-black uppercase tracking-tighter leading-[0.8] text-black">
                         GET IN <br /> <span className="text-[#FB7E10]">TOUCH</span>
                     </h1>
-                    <p className="text-gray-500 text-lg md:text-2xl font-medium max-w-2xl mx-auto italic leading-relaxed">
+                    <p className="text-gray-500 text-lg md:text-2xl font-medium max-w-2xl mx-auto leading-relaxed">
                         Rapid response mobile tyre solutions at your fingertips. Our dispatch team is available 24/7 to assist you.
                     </p>
                 </div>
@@ -52,47 +52,47 @@ const ContactPage = () => {
                                 <div className="w-10 h-[2px] bg-[#FB7E10]"></div>
                                 <span className="text-[#FB7E10] font-black uppercase text-xs tracking-widest">Connect With Us</span>
                             </div>
-                            <h2 className="text-4xl md:text-5xl font-black tracking-tight uppercase italic leading-none text-black">Speak to our <br /> Expert Team.</h2>
+                            <h2 className="text-4xl md:text-5xl font-black tracking-tight uppercase leading-none text-black">Speak to our <br /> Expert Team.</h2>
                         </div>
 
                         <div className="space-y-6">
-                             <a href="tel:+447495336005" className="group flex items-center gap-6 p-6 md:p-8 bg-white border border-gray-100 rounded-3xl hover:shadow-2xl hover:border-[#FB7E10]/30 transition-all duration-500 shadow-xl">
-                                <div className="w-16 h-16 bg-orange-50 rounded-2xl flex items-center justify-center text-[#FB7E10] border border-orange-100 group-hover:bg-[#FB7E10] group-hover:text-white transition-all duration-500">
-                                    <Phone size={32} />
+                             <a href="tel:+447495336005" className="group flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 p-6 md:p-8 bg-white border border-gray-100 rounded-3xl hover:shadow-2xl hover:border-[#FB7E10]/30 transition-all duration-500 shadow-xl overflow-hidden">
+                                <div className="shrink-0 w-12 h-12 sm:w-16 sm:h-16 bg-orange-50 rounded-xl sm:rounded-2xl flex items-center justify-center text-[#FB7E10] border border-orange-100 group-hover:bg-[#FB7E10] group-hover:text-white transition-all duration-500">
+                                    <Phone size={24} className="sm:w-8 sm:h-8" />
                                 </div>
-                                <div className="space-y-0.5">
+                                <div className="space-y-1 sm:space-y-0.5 min-w-0 w-full">
                                     <span className="block text-gray-400 text-[10px] font-black uppercase tracking-widest leading-none">Emergency Phone</span>
-                                    <span className="block text-2xl font-black text-black italic leading-tight">+44 7495 336 005</span>
+                                    <span className="block text-lg sm:text-2xl font-black text-black leading-tight break-words">+44 7495 336 005</span>
                                 </div>
                             </a>
 
-                            <div className="group flex items-center gap-6 p-6 md:p-8 bg-white border border-gray-100 rounded-3xl shadow-xl">
-                                <div className="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 border border-blue-100">
-                                    <MapPin size={32} />
+                            <div className="group flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 p-6 md:p-8 bg-white border border-gray-100 rounded-3xl shadow-xl overflow-hidden">
+                                <div className="shrink-0 w-12 h-12 sm:w-16 sm:h-16 bg-blue-50 rounded-xl sm:rounded-2xl flex items-center justify-center text-blue-600 border border-blue-100">
+                                    <MapPin size={24} className="sm:w-8 sm:h-8" />
                                 </div>
-                                <div className="space-y-0.5">
+                                <div className="space-y-1 sm:space-y-0.5 min-w-0 w-full">
                                     <span className="block text-gray-400 text-[10px] font-black uppercase tracking-widest leading-none">Global HQ</span>
-                                    <span className="block text-xl font-black text-black italic leading-tight">172 Newport road aldershot Gu124pz</span>
+                                    <span className="block text-base sm:text-xl font-black text-black leading-tight break-words">172 Newport road aldershot Gu124pz</span>
                                 </div>
                             </div>
 
-                            <div className="group flex items-center gap-6 p-6 md:p-8 bg-white border border-gray-100 rounded-3xl shadow-xl">
-                                <div className="w-16 h-16 bg-green-50 rounded-2xl flex items-center justify-center text-green-600 border border-green-100">
-                                    <Clock size={32} />
+                            <div className="group flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 p-6 md:p-8 bg-white border border-gray-100 rounded-3xl shadow-xl overflow-hidden">
+                                <div className="shrink-0 w-12 h-12 sm:w-16 sm:h-16 bg-green-50 rounded-xl sm:rounded-2xl flex items-center justify-center text-green-600 border border-green-100">
+                                    <Clock size={24} className="sm:w-8 sm:h-8" />
                                 </div>
-                                <div className="space-y-0.5">
+                                <div className="space-y-1 sm:space-y-0.5 min-w-0 w-full">
                                     <span className="block text-gray-400 text-[10px] font-black uppercase tracking-widest leading-none">Service Window</span>
-                                    <span className="block text-2xl font-black text-black italic leading-tight uppercase">Always 24/7/365</span>
+                                    <span className="block text-lg sm:text-2xl font-black text-black leading-tight uppercase break-words">Always 24/7/365</span>
                                 </div>
                             </div>
 
-                            <a href="mailto:info@mobiletyrechampions.com" className="group flex items-center gap-6 p-6 md:p-8 bg-white border border-gray-100 rounded-3xl hover:shadow-2xl hover:border-[#FB7E10]/30 transition-all duration-500 shadow-xl">
-                                <div className="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 border border-blue-100 group-hover:bg-[#FB7E10] group-hover:text-white transition-all duration-500">
-                                    <Mail size={32} />
+                            <a href="mailto:info@mobiletyrechampions.com" className="group flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 p-6 md:p-8 bg-white border border-gray-100 rounded-3xl hover:shadow-2xl hover:border-[#FB7E10]/30 transition-all duration-500 shadow-xl overflow-hidden">
+                                <div className="shrink-0 w-12 h-12 sm:w-16 sm:h-16 bg-blue-50 rounded-xl sm:rounded-2xl flex items-center justify-center text-blue-600 border border-blue-100 group-hover:bg-[#FB7E10] group-hover:text-white transition-all duration-500">
+                                    <Mail size={24} className="sm:w-8 sm:h-8" />
                                 </div>
-                                <div className="space-y-0.5">
+                                <div className="space-y-1 sm:space-y-0.5 min-w-0 w-full">
                                     <span className="block text-gray-400 text-[10px] font-black uppercase tracking-widest leading-none">Support Email</span>
-                                    <span className="block text-xl font-black text-black italic leading-tight lowercase">info@mobiletyrechampions.com</span>
+                                    <span className="block text-base sm:text-xl font-black text-black leading-tight lowercase break-all sm:break-normal">info@mobiletyrechampions.com</span>
                                 </div>
                             </a>
                         </div>
@@ -100,16 +100,16 @@ const ContactPage = () => {
                         <div className="bg-[#0B1528] rounded-[3rem] p-10 text-white space-y-8 relative overflow-hidden group shadow-2xl">
                              <div className="absolute top-0 right-0 w-32 h-32 bg-[#FB7E10]/10 rounded-full blur-3xl -mr-16 -mt-16"></div>
                              <div className="space-y-2">
-                                 <h4 className="text-2xl font-black italic uppercase tracking-tight">Rapid Response Matrix</h4>
+                                 <h4 className="text-2xl font-black uppercase tracking-tight">Rapid Response Matrix</h4>
                                  <p className="text-gray-400 font-medium text-sm leading-relaxed">Our centralized dispatch system tracks every unit in real-time to guarantee our arrival within 60 minutes.</p>
                              </div>
                              <div className="grid grid-cols-2 gap-4">
                                  <div className="p-4 bg-white/5 rounded-2xl border border-white/10 text-center">
-                                     <span className="block text-[#FB7E10] text-3xl font-black italic">30m</span>
+                                     <span className="block text-[#FB7E10] text-3xl font-black">30m</span>
                                      <span className="text-[10px] font-black uppercase tracking-widest text-white/40">Avg. Arrival</span>
                                  </div>
                                  <div className="p-4 bg-white/5 rounded-2xl border border-white/10 text-center">
-                                     <span className="block text-[#FB7E10] text-3xl font-black italic">50+</span>
+                                     <span className="block text-[#FB7E10] text-3xl font-black">50+</span>
                                      <span className="text-[10px] font-black uppercase tracking-widest text-white/40">Live Units</span>
                                  </div>
                              </div>
@@ -125,8 +125,8 @@ const ContactPage = () => {
                                         <CheckCircle size={56} />
                                     </div>
                                     <div className="space-y-2">
-                                        <h2 className="text-3xl font-black text-black uppercase italic">Deployment Scheduled!</h2>
-                                        <p className="text-gray-500 font-medium italic">Our dispatch center has received your request. A technician will contact you in less than 5 minutes.</p>
+                                        <h2 className="text-3xl font-black text-black uppercase">Deployment Scheduled!</h2>
+                                        <p className="text-gray-500 font-medium">Our dispatch center has received your request. A technician will contact you in less than 5 minutes.</p>
                                     </div>
                                     <button onClick={() => setSubmitted(false)} className="text-[#FB7E10] font-black uppercase text-xs tracking-widest border-b-2 border-[#FB7E10] pb-1 hover:text-black hover:border-black transition-colors">
                                         Submit Another Request
@@ -137,10 +137,10 @@ const ContactPage = () => {
                             <div className="space-y-12">
                                 <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 pb-10 border-b border-gray-100">
                                     <div className="space-y-3">
-                                        <h3 className="text-black font-black text-3xl sm:text-7xl uppercase italic tracking-tighter leading-[0.8]">
+                                        <h3 className="text-black font-black text-3xl sm:text-7xl uppercase tracking-tighter leading-[0.8]">
                                             INITIATE <br /> <span className="text-[#FB7E10]">CONTACT</span>
                                         </h3>
-                                        <p className="text-gray-400 font-bold uppercase tracking-[0.2em] text-[10px] md:text-xs italic pl-1">Technical Response Unit • 24H Readiness</p>
+                                        <p className="text-gray-400 font-bold uppercase tracking-[0.2em] text-[10px] md:text-xs pl-1">Technical Response Unit • 24H Readiness</p>
                                     </div>
                                 </div>
 

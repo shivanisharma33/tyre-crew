@@ -222,8 +222,7 @@ const AboutPage = () => {
             {values.map((v, i) => (
               <div
                 key={i}
-                className={`rounded-2xl md:rounded-3xl p-6 md:p-8 relative overflow-hidden group hover:shadow-lg transition-all duration-300 ${i === 0 || i === 3 ? 'bg-[#0B1528] text-white' : 'bg-white'
-                  }`}
+                className={`rounded-2xl md:rounded-3xl p-6 md:p-8 relative overflow-hidden group hover:shadow-lg transition-all duration-300 ${i === 0 || i === 3 ? 'bg-[#0B1528] text-white' : 'bg-white' }`}
               >
                 {/* watermark icon */}
                 <div className="absolute bottom-4 right-4 opacity-5 pointer-events-none group-hover:opacity-10 transition-opacity">
@@ -260,8 +259,7 @@ const AboutPage = () => {
             {testimonials.map((t, i) => (
               <div
                 key={i}
-                className={`rounded-2xl md:rounded-3xl p-6 md:p-8 flex flex-col gap-6 hover:shadow-xl transition-all duration-300 ${i === 1 ? 'bg-[#FB7E10] text-white' : 'bg-[#F1F3F6]'
-                  }`}
+                className={`rounded-2xl md:rounded-3xl p-6 md:p-8 flex flex-col gap-6 hover:shadow-xl transition-all duration-300 ${i === 1 ? 'bg-[#FB7E10] text-white' : 'bg-[#F1F3F6]' }`}
               >
                 {/* stars */}
                 <div className="flex gap-1">
@@ -269,7 +267,7 @@ const AboutPage = () => {
                     <Star key={si} size={16} fill={i === 1 ? 'white' : '#FB7E10'} className={i === 1 ? 'text-white' : 'text-[#FB7E10]'} />
                   ))}
                 </div>
-                <p className={`font-bold italic leading-relaxed text-base flex-1 ${i === 1 ? 'text-white' : 'text-gray-800'}`}>
+                <p className={`font-bold leading-relaxed text-base flex-1 ${i === 1 ? 'text-white' : 'text-gray-800'}`}>
                   "{t.quote}"
                 </p>
                 <div className="flex items-center gap-3">
@@ -323,7 +321,7 @@ const AboutPage = () => {
             </div>
             <div>
               <div className="text-white/40 text-[10px] font-black uppercase tracking-widest mb-1">Open Hours</div>
-              <div className="text-[#FB7E10] font-black text-lg md:text-2xl italic">24/7</div>
+              <div className="text-[#FB7E10] font-black text-lg md:text-2xl">24/7</div>
               <div className="text-white/60 text-xs font-medium">We are always available!</div>
             </div>
           </div>
