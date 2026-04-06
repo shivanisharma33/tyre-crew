@@ -3,18 +3,11 @@ import React from 'react';
 const TyrePartners = () => {
   const brands = [
     // Tyre Brands
-    { name: 'Michelin', logo: 'https://www.carlogos.org/logo/Michelin-logo-2017x1100.png' },
-    { name: 'Continental', logo: 'https://www.carlogos.org/car-logos/continental-logo-640.png' },
-    { name: 'Pirelli', logo: 'https://www.carlogos.org/car-logos/pirelli-logo-640.png' },
-    { name: 'Bridgestone', logo: 'https://www.carlogos.org/car-logos/bridgestone-logo-640.png' },
-    { name: 'Goodyear', logo: 'https://www.carlogos.org/car-logos/goodyear-logo-640.png' },
-    { name: 'Dunlop', logo: 'https://www.carlogos.org/car-logos/dunlop-logo-640.png' },
-
+   
     // Luxury Car Brands
     { name: 'BMW', logo: 'https://www.carlogos.org/car-logos/bmw-logo.png' },
     { name: 'Mercedes-Benz', logo: 'https://www.carlogos.org/car-logos/mercedes-benz-logo.png' },
-    { name: 'Audi', logo: 'https://www.audi.co.uk/content/dam/nemo/global/brand-elements/logos/four-rings/01_rings_black_lg.png' },
-    { name: 'Porsche', logo: 'https://www.carlogos.org/car-logos/porsche-logo.png' },
+   { name: 'Porsche', logo: 'https://www.carlogos.org/car-logos/porsche-logo.png' },
     { name: 'Bentley', logo: 'https://www.carlogos.org/car-logos/bentley-logo-2002-640.png' },
     { name: 'Rolls-Royce', logo: 'https://www.carlogos.org/logo/Rolls-Royce-logo-640x550.jpg' },
     { name: 'Jaguar', logo: 'https://www.carlogos.org/car-logos/jaguar-logo-2021-640.png' },
