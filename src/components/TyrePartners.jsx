@@ -15,7 +15,7 @@ const TyrePartners = () => {
     { name: 'Apollo', logo: 'https://www.carlogos.org/tire-logos/apollo-logo.png' },
     { name: 'CEAT', logo: 'https://www.carlogos.org/tire-logos/ceat-logo.png' },
     { name: 'MRF', logo: 'https://www.carlogos.org/tire-logos/mrf-logo.png' },
-     { name: 'Vogue', logo: 'https://www.carlogos.org/tire-logos/vogue-logo.png' },
+    { name: 'Vogue', logo: 'https://www.carlogos.org/tire-logos/vogue-logo.png' },
     { name: 'Atturo', logo: 'https://www.carlogos.org/tire-logos/atturo-logo.png' },
     { name: 'Starfire', logo: 'https://www.carlogos.org/tire-logos/starfire-logo.png' },
   ];
@@ -26,20 +26,20 @@ const TyrePartners = () => {
         <div className="flex-shrink-0">
           <span className="text-[10px] md:text-[12px] font-black uppercase tracking-[0.2em] text-slate-400">Tyre brands</span>
         </div>
-        
+
         <div className="flex-1 overflow-hidden relative group">
           <div className="flex w-max animate-marquee items-center gap-12 md:gap-24">
             {[...brands, ...brands].map((brand, i) => (
               <div key={i} className="flex-shrink-0 transition-all duration-300 hover:scale-110">
-                <img 
-                  src={brand.logo} 
-                  alt={brand.name} 
-                  className="h-8 md:h-10 w-auto object-contain transition-all cursor-pointer"
+                <img
+                  src={brand.logo}
+                  alt={brand.name}
+                  className="h-14 md:h-24 w-auto object-contain transition-all cursor-pointer"
                 />
               </div>
             ))}
           </div>
-          
+
           {/* Gradients for smooth fade */}
           <div className="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none"></div>
           <div className="absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none"></div>
