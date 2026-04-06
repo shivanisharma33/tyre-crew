@@ -28,7 +28,7 @@ const TyrePartners = () => {
         </div>
         
         <div className="flex-1 overflow-hidden relative group">
-          <div className="flex animate-marquee items-center gap-12 md:gap-24">
+          <div className="flex w-max animate-marquee items-center gap-12 md:gap-24">
             {[...brands, ...brands].map((brand, i) => (
               <div key={i} className="flex-shrink-0 transition-all duration-300 hover:scale-110">
                 <img 
