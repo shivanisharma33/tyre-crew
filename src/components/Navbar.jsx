@@ -42,7 +42,11 @@ const Navbar = () => {
       >
         {/* Logo */}
         <Link to="/" className="flex items-center h-full py-2 sm:py-3 w-1/2 sm:w-auto">
-          <img src="/images/Asset 1.png" alt="Mobile Tyre Champions" className="h-full w-auto max-w-full object-contain" />
+          <img 
+            src="/images/MTC logo 2.png" 
+            alt="Mobile Tyre Champions" 
+            className="h-full w-auto max-w-full object-contain drop-shadow-sm transition-transform duration-300 hover:scale-105" 
+          />
         </Link>
 
         {/* Desktop Links */}
