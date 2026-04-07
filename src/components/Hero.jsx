@@ -27,7 +27,7 @@ const Hero = () => {
             </div>
 
             <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold leading-tight">
-              Mobile Tyre Champions,<br className="hidden sm:block" />
+              The Help You Need, Exactly <br className="hidden sm:block" />
               <span className="text-[#FB7E10]"> Where You Are.</span>
             </h1>
 
