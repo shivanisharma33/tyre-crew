@@ -11,7 +11,7 @@ const Footer = () => {
                         <img src="/images/MTC logo 3.png" alt="Mobile Tyre Champions" className="h-full w-auto max-w-full object-contain" />
                     </Link>
                     <p className="text-gray-400 text-sm font-medium leading-relaxed max-w-xs">
-                        Mobile Tyre Champions is a 24/7 mobile tyre service based in Aldershot, covering Surrey and Hampshire. We come to you at home, at work or at the roadside — fast, honest and fully mobile.
+                        Mobile Tyre Champions is a 24/7 mobile tyre service based at <strong>Grosvenor Road, Aldershot, GU11 3HY</strong>, covering Surrey and Hampshire. We come to you at home, at work or at the roadside — fast, honest and fully mobile.
                     </p>
                     <div className="flex items-center gap-3">
                         <a

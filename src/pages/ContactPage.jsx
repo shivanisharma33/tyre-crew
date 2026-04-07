@@ -72,7 +72,7 @@ const ContactPage = () => {
                                 </div>
                                 <div className="space-y-1 sm:space-y-0.5 min-w-0 w-full">
                                     <span className="block text-gray-400 text-[10px] font-black uppercase tracking-widest leading-none">Global HQ</span>
-                                    <span className="block text-base sm:text-xl font-black text-black leading-tight break-words">172 Newport road aldershot Gu124pz</span>
+                                    <span className="block text-base sm:text-xl font-black text-black leading-tight break-words">Grosvenor Road, Aldershot, Postcode: GU11 3HY</span>
                                 </div>
                             </div>
 
@@ -155,7 +155,7 @@ const ContactPage = () => {
                                     </div>
                                     <div className="space-y-2.5 md:col-span-2">
                                         <label className="text-[10px] font-black uppercase text-gray-400 tracking-[0.2em] pl-1">Current Sector / Postcode</label>
-                                        <input required type="text" placeholder="e.g. GU12 4PZ" className="w-full bg-slate-50 border-2 border-transparent focus:border-[#FB7E10] focus:bg-white rounded-2xl px-6 py-5 font-bold text-black outline-none transition-all placeholder:text-gray-300 shadow-inner" />
+                                        <input required type="text" placeholder="e.g. GU11 3HY" className="w-full bg-slate-50 border-2 border-transparent focus:border-[#FB7E10] focus:bg-white rounded-2xl px-6 py-5 font-bold text-black outline-none transition-all placeholder:text-gray-300 shadow-inner" />
                                     </div>
                                     <div className="space-y-2.5 md:col-span-2">
                                         <label className="text-[10px] font-black uppercase text-gray-400 tracking-[0.2em] pl-1">Service Required</label>

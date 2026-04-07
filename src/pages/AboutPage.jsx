@@ -189,7 +189,7 @@ const AboutPage = () => {
               Mobile Tyre Champions was built on a simple belief — <strong>no driver should be stranded</strong>. Our mobile operations mean no waiting in garages, no towing fees. You stay where you are, and we come to you with the same equipment and expertise as a workshop.
             </p>
             <p className="text-gray-600 text-base md:text-lg leading-relaxed">
-              Based at <strong>172 Newport Road, Aldershot GU12 4PZ</strong>, we serve customers across the UK with a large stock, expert technicians, and fully equipped mobile vans — delivering convenience, safety, and transparency with every job.
+              Based at <strong>Grosvenor Road, Aldershot, Postcode: GU11 3HY</strong>, we serve customers across the UK with a large stock, expert technicians, and fully equipped mobile vans — delivering convenience, safety, and transparency with every job.
             </p>
 
             {/* service bullets */}
@@ -297,7 +297,7 @@ const AboutPage = () => {
             </div>
             <div>
               <div className="text-white/40 text-[10px] font-black uppercase tracking-widest mb-1">Address</div>
-              <div className="text-white font-bold text-sm md:text-base leading-snug">172 Newport Road, Aldershot<br />GU12 4PZ</div>
+              <div className="text-white font-bold text-sm md:text-base leading-snug">Grosvenor Road, Aldershot<br />GU11 3HY</div>
             </div>
           </div>
 
