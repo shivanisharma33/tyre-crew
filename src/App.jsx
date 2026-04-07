@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
@@ -19,14 +19,23 @@ import LockingWheelNutRemoval from './pages/LockingWheelNutRemoval';
 import TrailerTyreFitting from './pages/TrailerTyreFitting';
 import TyrePartners from './components/TyrePartners';
 
+/* ── Scroll to top on route change ─────────────────────────────────────── */
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'instant' });
+  }, [pathname]);
+  return null;
+};
+
 /* ── Home page assembled from components ─────────────────────────────────── */
 const HomePage = () => (
   <>
     <Hero />
     <Features />
     <Process />
-    <Services />
     <HowToReadTyre />
+    <Services />
     <CTA />
   </>
 );
@@ -35,6 +44,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="min-h-screen bg-slate-50 font-['Outfit']">
+        <ScrollToTop />
         <TyrePartners />
         <Navbar />
         <Routes>

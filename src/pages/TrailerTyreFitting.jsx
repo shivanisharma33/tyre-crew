@@ -31,7 +31,7 @@ const TrailerTyreFitting = () => {
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
                         <a
-                            href="tel:+447495336005"
+                            href="tel:+447494024653"
                             className="w-full sm:w-auto flex items-center justify-center gap-3 bg-[#FB7E10] text-white px-10 py-5 rounded-xl font-black text-lg uppercase tracking-widest hover:bg-orange-600 transition-all shadow-[0_0_40px_rgba(251,126,16,0.4)] hover:scale-105 active:scale-95"
                         >
                             <Phone size={24} fill="white" className="stroke-none" />
@@ -176,9 +176,9 @@ const TrailerTyreFitting = () => {
 
                                 <div className="pt-8 border-t border-white/20">
                                     <h4 className="uppercase font-black text-xs tracking-widest text-white/70 mb-4 text-center">Get Mobile Support Now</h4>
-                                    <a href="tel:+447495336005" className="w-full flex items-center justify-center gap-3 bg-white text-[#FB7E10] py-5 rounded-xl font-black uppercase tracking-widest text-sm md:text-base hover:bg-slate-50 transition-all shadow-xl active:scale-95">
+                                    <a href="tel:+447494024653" className="w-full flex items-center justify-center gap-3 bg-white text-[#FB7E10] py-5 rounded-xl font-black uppercase tracking-widest text-sm md:text-base hover:bg-slate-50 transition-all shadow-xl active:scale-95">
                                         <PhoneCall size={20} />
-                                        07495 336 005
+                                        07494 024653
                                     </a>
                                 </div>
                            </div>

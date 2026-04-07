@@ -38,7 +38,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className={`flex items-center justify-between px-4 md:px-10 h-20 md:h-28 transition-all duration-300 relative z-50 ${scrolled ? 'bg-white shadow-md' : 'bg-gray-100 shadow-sm' }`}
+        className={`flex items-center justify-between px-4 md:px-10 h-20 md:h-28 transition-all duration-300 relative z-50 ${scrolled ? 'bg-white shadow-md' : 'bg-white' }`}
       >
         {/* Logo */}
         <Link to="/" className="flex items-center h-full py-2 sm:py-3 w-1/2 sm:w-auto">
@@ -85,15 +85,15 @@ const Navbar = () => {
         {/* Right side */}
         <div className="flex items-center gap-3">
           <a
-            href="tel:+447495336005"
+            href="tel:+447494024653"
             className="hidden lg:flex items-center gap-2 bg-[#FB7E10] text-white px-5 py-2.5 rounded-full font-bold text-sm shadow-lg hover:bg-orange-600 transition-all whitespace-nowrap"
           >
-            <span>+44 7495 336 005</span>
+            <span>+44 7494 024653</span>
             <Phone size={16} fill="white" />
           </a>
 
           <button
-            className="lg:hidden p-2 text-black bg-white/50 rounded-md border border-gray-200"
+            className="lg:hidden p-2 text-black bg-white rounded-md border border-gray-200"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -137,10 +137,10 @@ const Navbar = () => {
           ))}
 
           <a
-            href="tel:+447495336005"
+            href="tel:+447494024653"
             className="flex items-center justify-center gap-2 bg-[#FB7E10] text-white w-full py-3.5 rounded-xl font-bold text-sm shadow-lg hover:bg-orange-600 transition-all mt-2"
           >
-            <span>CALL: +44 7495 336 005</span>
+            <span>CALL: +44 7494 024653</span>
             <Phone size={16} fill="white" />
           </a>
         </div>

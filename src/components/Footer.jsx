@@ -67,11 +67,11 @@ const Footer = () => {
                     <div className="bg-[#050B16] border border-white/5 rounded-2xl p-6 space-y-5 text-center sm:text-left">
                         <div className="space-y-1">
                             <span className="text-[10px] font-black text-[#FB7E10] uppercase tracking-widest pl-1">24/7 Hotline</span>
-                            <h4 className="text-white font-black text-xl lg:text-2xl tracking-tight whitespace-nowrap">+44 7495 336 005</h4>
+                            <h4 className="text-white font-black text-xl lg:text-2xl tracking-tight whitespace-nowrap">+44 7494 024653</h4>
                         </div>
                         <div className="flex flex-col gap-3">
                             <a
-                                href="tel:+447495336005"
+                                href="tel:+447494024653"
                                 className="flex w-full items-center justify-center bg-[#FB7E10] text-white py-3 md:py-3.5 rounded-xl font-black uppercase text-xs md:text-sm tracking-widest hover:bg-orange-600 transition-all active:scale-[0.98] shadow-lg shadow-orange-900/10"
                             >
                                 Call Now

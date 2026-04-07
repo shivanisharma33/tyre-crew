@@ -2,7 +2,7 @@ export const servicesData = [
   {
     id: 'premium-tyre-service',
     title: "Premium Tyre Service",
-    image: "/images/PREMIUM TYRE SERVICE.avif",
+    image: "/images/premier.avif",
     description: "Expert tyre fitting and maintenance for all vehicle types. We use state-of-the-art equipment to ensure your tyres are fitted perfectly, providing maximum safety and performance on the road.",
     features: [
       "Precision Balancing",
@@ -11,22 +11,11 @@ export const servicesData = [
       "Environmental Disposal"
     ]
   },
-  {
-    id: 'expert-mechanical-repair',
-    title: "Expert Mechanical Repair",
-    image: "/images/precision.avif",
-    description: "Comprehensive mechanical repairs delivered roadside or at your convenience. From brakes to suspension, our certified technicians handle it all.",
-    features: [
-      "Brake Inspection",
-      "Suspension Repair",
-      "Diagnostic Checks",
-      "Mobile Workshop"
-    ]
-  },
+
   {
     id: 'puncture-repair',
     title: "Puncture Repair",
-    image: "/images/flat-tyres.avif",
+    image: "/images/puncture.avif",
     description: "Got a flat? Our expert mobile technicians can quickly and safely perform puncture repairs to British Standards, getting you back on the road safely without the cost of a new tyre.",
     features: [
       "BS AU 159 Compliant Repair",
@@ -38,7 +27,7 @@ export const servicesData = [
   {
     id: 'trailer-tyre-fitting',
     title: "Mobile Trailer Tyre Fitting",
-    image: "/images/mobile.jpg",
+    image: "/images/mobile trailer.avif",
     description: "Specialized mobile fitting for trailers, caravans, and horseboxes. We come to your storage location or home to ensure your leisure vehicle is ready for the road.",
     features: [
       "Caravan Specialists",
@@ -50,7 +39,7 @@ export const servicesData = [
   {
     id: '24-7-tyre-service',
     title: "24/7 Tyre Service",
-    image: "/images/24%207%20tyre.avif",
+    image: "/images/24 7.avif",
     description: "Round-the-clock emergency tyre response. Whether it's 3 AM or mid-day on Christmas, our rapid response team is always one call away.",
     features: [
       "Rapid Response",
@@ -62,7 +51,7 @@ export const servicesData = [
   {
     id: 'precision-wheel-balancing',
     title: "Precision Wheel Balancing",
-    image: "/images/wheel.jpg",
+    image: "/images/precision wheel.avif",
     description: "Eliminate vibrations and ensure even tyre wear with our mobile precision balancing service using high-spec digital balancers.",
     features: [
       "Vibration Removal",
@@ -74,7 +63,7 @@ export const servicesData = [
   {
     id: 'emergency-tyre-fitting',
     title: "Emergency Tyre Fitting",
-    image: "/images/emergency%20tyre.avif",
+    image: "/images/emergency.avif",
     description: "Stuck roadside with a blown tyre? Our emergency unit is dispatched immediately to get you back on your way in under 60 minutes.",
     features: [
       "Roadside Dispatch",
@@ -86,7 +75,7 @@ export const servicesData = [
   {
     id: 'locking-wheel-nut-removal',
     title: "Locking Wheel Nut Removal",
-    image: "/images/locking wheel 1.avif",
+    image: "/images/locking.jpg",
     description: "Lost your locking wheel nut key or have a damaged nut? We provide expert non-destructive locking wheel nut removal without damaging your precious alloys.",
     features: [
       "Non-Destructive Removal",

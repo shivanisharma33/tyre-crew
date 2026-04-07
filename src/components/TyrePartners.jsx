@@ -21,11 +21,9 @@ const TyrePartners = () => {
   ];
 
   return (
-    <div className="bg-white border-b border-slate-100 py-4 md:py-6 overflow-hidden relative">
+    <div className="bg-gray-100 border-b border-slate-200 py-4 md:py-6 overflow-hidden relative">
       <div className="max-w-[1400px] mx-auto px-4 md:px-10 flex items-center justify-between gap-6 md:gap-16">
-        <div className="flex-shrink-0">
-          <span className="text-[10px] md:text-[12px] font-black uppercase tracking-[0.2em] text-slate-400">Tyre brands</span>
-        </div>
+
 
         <div className="flex-1 overflow-hidden relative group">
           <div className="flex w-max animate-marquee items-center gap-12 md:gap-24">
@@ -41,8 +39,8 @@ const TyrePartners = () => {
           </div>
 
           {/* Gradients for smooth fade */}
-          <div className="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none"></div>
-          <div className="absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none"></div>
+          <div className="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-gray-100 to-transparent z-10 pointer-events-none"></div>
+          <div className="absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-gray-100 to-transparent z-10 pointer-events-none"></div>
         </div>
       </div>
     </div>

@@ -119,9 +119,9 @@ const AboutPage = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
-              <a href="tel:+447495336005" className="flex items-center justify-center gap-3 bg-[#FB7E10] text-white px-8 py-4 rounded-xl font-black text-base hover:bg-orange-600 transition-all shadow-xl active:scale-95">
+              <a href="tel:+447494024653" className="flex items-center justify-center gap-3 bg-[#FB7E10] text-white px-8 py-4 rounded-xl font-black text-base hover:bg-orange-600 transition-all shadow-xl active:scale-95">
                 <Phone size={18} fill="white" />
-                Call Now: +44 7495 336 005
+                Call Now: +44 7494 024653
               </a>
               <a
                 href="#why-us"
@@ -308,7 +308,7 @@ const AboutPage = () => {
             </div>
             <div>
               <div className="text-white/40 text-[10px] font-black uppercase tracking-widest mb-1">Contact</div>
-              <a href="tel:+447495336005" className="text-white font-bold text-sm md:text-base hover:text-[#FB7E10] transition-colors">+44 7495 336 005</a>
+              <a href="tel:+447494024653" className="text-white font-bold text-sm md:text-base hover:text-[#FB7E10] transition-colors">+44 7494 024653</a>
               <br />
               <a href="mailto:info@mobiletyrechampions.com" className="text-white font-bold text-sm md:text-base hover:text-[#FB7E10] transition-colors">info@mobiletyrechampions.com</a>
             </div>
@@ -349,9 +349,9 @@ const AboutPage = () => {
               Whether you're at home, work, or stranded roadside — our expert team arrives quickly and gets you back on the road in just 30 minutes, guaranteed.
             </p>
             <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center md:justify-start gap-4 md:gap-6 pt-2">
-              <a href="tel:+447495336005" className="w-full sm:w-auto flex items-center justify-center gap-2 bg-[#FB7E10] text-white px-8 md:px-10 py-3 md:py-4 rounded-xl font-black text-base md:text-lg hover:bg-orange-600 transition-all shadow-xl active:scale-95">
+              <a href="tel:+447494024653" className="w-full sm:w-auto flex items-center justify-center gap-2 bg-[#FB7E10] text-white px-8 md:px-10 py-3 md:py-4 rounded-xl font-black text-base md:text-lg hover:bg-orange-600 transition-all shadow-xl active:scale-95">
                 <Phone size={18} fill="white" />
-                Call +44 7495 336 005
+                Call +44 7494 024653
               </a>
               <button className="w-full sm:w-auto flex items-center justify-center gap-2 bg-white/10 border border-white/20 text-white px-8 md:px-10 py-3 md:py-4 rounded-xl font-black text-base md:text-lg hover:bg-white/20 transition-all">
                 Book Appointment
