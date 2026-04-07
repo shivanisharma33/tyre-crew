@@ -40,9 +40,9 @@ const Footer = () => {
                 </div>
 
                 {/* Quick Links */}
-                <div className="space-y-8 lg:mt-2">
+                <div className="space-y-8 lg:mt-2 text-center sm:text-left">
                     <h4 className="text-white font-black text-lg uppercase tracking-tight">Quick Links</h4>
-                    <div className="flex flex-col space-y-4">
+                    <div className="flex flex-col items-center sm:items-start space-y-4">
                         <Link to="/" className="text-gray-400 hover:text-[#FB7E10] transition-colors text-sm font-medium">Home</Link>
                         <Link to="/about" className="text-gray-400 hover:text-[#FB7E10] transition-colors text-sm font-medium">About Us</Link>
                         <Link to="/services" className="text-gray-400 hover:text-[#FB7E10] transition-colors text-sm font-medium">Services</Link>
@@ -52,9 +52,9 @@ const Footer = () => {
                 </div>
 
                 {/* Support */}
-                <div className="space-y-8 lg:mt-2">
+                <div className="space-y-8 lg:mt-2 text-center sm:text-left">
                     <h4 className="text-white font-black text-lg uppercase tracking-tight">Support</h4>
-                    <div className="flex flex-col space-y-4">
+                    <div className="flex flex-col items-center sm:items-start space-y-4">
                         <a href="#" className="text-gray-400 hover:text-[#FB7E10] transition-colors text-sm font-medium">Privacy Policy</a>
                         <a href="#" className="text-gray-400 hover:text-[#FB7E10] transition-colors text-sm font-medium">Terms of Service</a>
                         <a href="#" className="text-gray-400 hover:text-[#FB7E10] transition-colors text-sm font-medium">Cookie Policy</a>
